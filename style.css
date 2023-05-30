@@ -1,0 +1,152 @@
+header, main, aside, footer{
+    background-color: beige;
+    border: 3px solid beige;
+    padding: auto;
+}
+.body{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+header{
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: beige;
+    float: left;
+}
+main section3{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+main section3 .Ofrecemos{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 1;
+}
+main section3 .Impositivo{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row: 2;
+    padding: 20px;
+}
+main section3 .Contable{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row: 2;
+    padding: 20px;
+}
+main section3 .Laboral{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 3;
+    padding: 20px;
+}
+footer{
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.Titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-body{
+    background-color: white;
+    text-align: center;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.form-register{
+    width: 400px;
+    background: rgb(214, 200, 182);
+    padding: 30px;
+    margin: auto;
+    margin-top: 60px;
+    font-family: Calibri;
+}
+.controls{
+    width: 300px;
+    padding: 20px;
+    margin-bottom: 12px;
+    border: 1px solid rgb(214, 200, 182);
+    font-family: Calibri;
+} 
+.controls1{
+    width: 300px;
+    padding: 50px;
+    margin-bottom: 12px;
+    border: 1px solid rgb(214, 200, 182);
+    font-family: Calibri;
+} 
+.form-register .botons{
+    width: 300px;
+    background: rgb(85, 85, 19);
+    padding: 12px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.caja1{
+    position: relative;
+    z-index: 9;
+    width: 30%;
+}
+.caja2{
+    position: relative;
+    z-index: 9;
+    padding: 2px;
+    width: 30%;
+    left: 30%;
+    top: -105%;
+}
+.caja3{
+    border: 2px dotted red;
+    background-image: url(mision-vision-valores.jpg);
+    width: 100%;
+    height: 400px;
+    position: relative;
+    z-index: 1;
+}
+.caja4{
+    position: relative;
+    z-index: 9;
+    padding: 2px;
+    width: 30%;
+    left: 65%;
+    top: -202%;
+}
+h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+}
+.video{
+    height: 800px;
+    width: 800px;
+    padding: 100px;
+}
+.Estudio{
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.ElEstudio{
+    width: 600px;
+    padding-left: 50px;
+}
+.comunicacion{
+    list-style: none;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+.Lugar{
+    width: 500px;
+    padding: 10px;
+}
